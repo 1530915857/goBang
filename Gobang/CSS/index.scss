@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: darkgray;
+}
+#warp{
+    width: 513px;
+    height: 513px;
+    background: url(../IMG/chessboard.png);
+    margin: 50px auto;
+    position: relative;
+    .writer{
+        width: 35px;
+        height: 35px;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+//      top: 24px;
+//      left: 24px;
+    }
+    .black{
+        width: 35px;
+        height: 35px;
+        background: black;
+        border-radius: 50%;
+        position: absolute;
+//      top: 24px;
+//      left: 60px;
+    }
+}
+.butt{
+    width: 70px;
+    height: 70px;
+    background: gray;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.butt1{
+    position: absolute;
+    top: 80%;
+}
+#baiqi{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background: white;
+    
+}
+#heiqi{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    background: black;
+    color: white;
+}
+#huiqi{
+    left: 35%;
+    background: red;
+    color: white;
+}
+#refresh{
+    left: 45%;
+    background: forestgreen;
+    color: white;
+}
+#chexiao{
+    left: 55%;
+    background: blue;
+    color: white;
+}
